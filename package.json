@@ -1,0 +1,34 @@
+{
+  "name": "localedge",
+  "version": "1.0.0",
+  "description": "Sending data to IoT Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjimenez44/LocalEdge.git"
+  },
+  "keywords": [
+    "IoT",
+    "Azure",
+    "Simulation"
+  ],
+  "author": "Santiago Jiménez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sjimenez44/LocalEdge/issues"
+  },
+  "homepage": "https://github.com/sjimenez44/LocalEdge#readme",
+  "dependencies": {
+    "azure-iot-device": "^1.17.8",
+    "azure-iot-device-mqtt": "^1.15.8",
+    "dotenv": "^10.0.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3"
+  }
+}
